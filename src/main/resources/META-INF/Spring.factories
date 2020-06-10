@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.example.customenvironment.autoconfig.PriceCalculationAutoConfig
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.example.customenvironment.PriceCalculationEnvironmentPostProcessor
